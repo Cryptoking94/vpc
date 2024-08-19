@@ -1,8 +1,3 @@
-variable "region" {
-  description = "The AWS region to create the VPC in"
-  type        = string
-}
-
 variable "vpc_cidr_block" {
   description = "The CIDR block for the VPC"
   type        = string
